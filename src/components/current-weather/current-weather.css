@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&display=swap');
+.weather{
+    width: 22rem;
+    border-radius: 1rem;
+    box-shadow: 1rem -0.2rem 2rem 0.2rem #1b213e65;
+    color:#d4ddca;
+    background-color: #5d91d4;
+    margin: 2rem auto 0 auto;
+    padding: 0 2rem 1rem 2rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.top,
+.bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.city{
+    font-weight: 800;
+    font-size: 1.1rem;
+    line-height: 1;
+    margin: 0;
+    letter-spacing: 0.2rem;
+}
+.description{
+    align-self: flex-start;
+    font-weight: 500;
+    font-size: 0.8rem;
+    line-height: 1;
+    margin: 0;
+    letter-spacing: 0.1rem;
+}
+.weather-icon{
+    
+    width: 15rem;
+}
+.temperature{
+    font-weight: 800;
+    font-size: 4rem;
+    width: auto;
+    letter-spacing: 0rem;
+    margin: 1rem 0;
+}
+
+.details{
+    width: 100%;
+    padding-left: 2rem;
+}
+.parameter-row{
+    display: flex;
+    justify-content: space-between;
+}
+.parameter-label{
+    text-align: left;
+    font-size: 0.9rem;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+}
+.parameter-value{
+    text-align: right;
+    font-size: 0.8rem;
+}
+.parameter-label.top{
+    border-bottom: 0.1rem solid #c8cdc6;
+}

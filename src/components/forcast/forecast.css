@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700;800&display=swap');
+
+.title{
+    font-size: 2rem;
+    font-weight: 800;
+    color: #d4ddca;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0.3rem;
+}
+.daily-item{
+    background-color: #d4ddca;
+    border-radius: 2rem;
+    height: 4rem;
+    margin: 0.5rem;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-size: 1.4rem;
+    padding: 1rem 2rem;
+}
+.icon-small{
+    width: 5rem;
+}
+
+.day{
+    color: #3867a5;
+    flex: 1 1;
+    font-weight: 600;
+    font-size: 1.7rem;
+    margin-left: 1rem;
+}
+.daily-description{
+    font-size: 1rem;
+    margin-right: 1rem;
+    color: #3867a5;
+    font-weight: 500;
+}
+/* #dark.daily-description{
+    color:blueviolet;
+} */
+.min-max{
+    font-size: 1.5rem;
+    margin-right: 1rem;
+    color: #3867a5;
+    font-weight: 500;
+}
+.daily-details-grid{
+    margin: 0rem 0.5rem;
+    row-gap: 0;
+    column-gap: 2rem;
+    display: grid;
+    flex: 1 1;
+    grid-template-columns: auto auto;
+    padding: 0.5rem 2rem;
+    background-color: #5d91d441;
+    border-radius: 1.2rem;
+}
+.daily-details-grid-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.5rem;
+}
+.daily-details-grid-item label:first-child{
+    color: #d4ddca;
+}
+.daily-details-grid-item label:last-child{
+    color: #2a3470;
+}

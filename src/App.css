@@ -1,0 +1,18 @@
+.container{
+  max-width: 1080px;
+  margin: 20px auto;
+  background-color: #3867a5;
+}
+/* .switch{
+  display: flex;
+  width: 10rem;
+  height: 10rem;
+  justify-content: center;
+  align-items: center;
+}
+#light .switch label{
+  color: #2d3829;
+}
+#dark .switch label{
+  color: #e7f4e2;
+} */
